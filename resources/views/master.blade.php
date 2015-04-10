@@ -44,33 +44,14 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse-main">
                         <ul class="nav navbar-nav  navbar-main">
                             <li><a href="{{{ URL::to('') }}}" class="dropdown-toggle" data-toggle="dropdown">Inicio<b class="caret"></b></a>
-                                <!--<ul class="dropdown-menu sub-menu">-->
-                                <ul class="dropdown-menu multi-column columns-2">
-                               	    <div class="row">
-                                        <div class="col-sm-6">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="#" class="menu-titulo">Institucional</a></li>
-                                                <li><a href="#">Autoridades</a></li>
-                                                <li><a href="#">Estatuto</a></li>
-                                                <li><a href="#">Secretarías</a></li>
-                                                <li><a href="#">Facultades, Sedes e Institutos</a></li>
-                                                <li><a href="#">Boletin Oficial</a></li>
-                                                <li><a href="#">Contacto</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="#">Inicio</a></li>
-                                                <li><a href="#">Autoridades</a></li>
-                                                <li><a href="#">Estatuto</a></li>
-                                                <li><a href="#">Secretarías</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Facultades, Sedes e Institutos</a></li>
-                                                <li><a href="#">Boletin Oficial</a></li>
-                                                <li><a href="#">Contacto</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <ul class="dropdown-menu sub-menu multi-column-dropdown">
+                                    <li><a href="#">Autoridades</a></li>
+                                    <li><a href="#">Estatuto</a></li>
+                                    <li><a href="#">Secretarías</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Facultades, Sedes e Institutos</a></li>
+                                    <li><a href="#">Boletin Oficial</a></li>
+                                    <li><a href="#">Contacto</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{{ URL::to('') }}}" class="dropdown-toggle" data-toggle="dropdown">Información Académica<b class="caret"></b></a>
@@ -108,7 +89,14 @@
                             <li><a href="{{{ URL::to('') }}}">Bienestar Universitario</a></li>
                             <li><a href="{{{ URL::to('') }}}">Institucional</a></li>
                             <li><a href="{{{ URL::to('') }}}">Extensión Universitaria</a></li>
-                        </ul> 
+                            <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                              <input type="text" class="form-control"  placeholder="Buscar" style="width: 160px; border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px">
+                            </div>
+                        </form>
+                        </ul>                        
                     </div>  
                 </div>  
             </div>
@@ -173,7 +161,11 @@
 
         </div>
         <div class="container">
-            <h3 class="titulo">Noticias</h3>
+            <div class="row">
+                <div class="col-md-9 col-sm-6 col-xs-12">
+                    <h3 class="titulo">Noticias</h3>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="box-noticias box-alumnos">
@@ -240,6 +232,50 @@
             </ul>
         </div>
         <div class="container">
+            <div style="background: #DFDFDF; padding: 20px 40px; height: 100%; margin-top: 40px;">
+            <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <ul style="list-style-type:none; padding: 0px;">
+                            <li>Lic. en Analisis de Sistemas</li>
+                            <li>Contador</li>
+                            <li>Lic. en Comunicación</li>
+                        </ul>
+                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <ul style="list-style-type:none; padding: 0px;">
+                            <li>Lic. en Analisis de Sistemas</li>
+                            <li>Contador</li>
+                            <li>Lic. en Comunicación</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <ul style="list-style-type:none; padding: 0px;">
+                            <li>Lic. en Analisis de Sistemas</li>
+                            <li>Contador</li>
+                            <li>Lic. en Comunicación</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <ul style="list-style-type:none; padding: 0px;">
+                            <li>Lic. en Analisis de Sistemas</li>
+                            <li>Contador</li>
+                            <li>Lic. en Comunicación</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <ul style="list-style-type:none; padding: 0px;">
+                            <li>Lic. en Analisis de Sistemas</li>
+                            <li>Contador</li>
+                            <li>Lic. en Comunicación</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <footer class="footer">
                 <div class="row">
                      <div class="col-md-6 visible-xs-12">
@@ -259,7 +295,7 @@
                         </div>
                      </div>
                 </div>
-            </footer> 
+            </footer>
         </div>
         <!-- Scripts are placed here -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
