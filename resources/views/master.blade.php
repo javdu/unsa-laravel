@@ -237,39 +237,44 @@
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
                         <ul style="list-style-type:none; padding: 0px;">
-                            <li>Lic. en Analisis de Sistemas</li>
-                            <li>Contador</li>
-                            <li>Lic. en Comunicación</li>
-                        </ul>
-                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
-                        <ul style="list-style-type:none; padding: 0px;">
-                            <li>Lic. en Analisis de Sistemas</li>
-                            <li>Contador</li>
-                            <li>Lic. en Comunicación</li>
+                            <li><a>Lic. en Analisis de Sistemas</a></li>
+                            <li><a>Contador Público Nacional</a></li>
+                            <li><a>Lic. en Comunicación</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
-                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <h5 style="color: #26A65B;">BECAS VARIAS</h5>
                         <ul style="list-style-type:none; padding: 0px;">
-                            <li>Lic. en Analisis de Sistemas</li>
-                            <li>Contador</li>
-                            <li>Lic. en Comunicación</li>
+                            <li><a>Becas Universidad</a></li>
+                            <li><a>Becas Provinciales</a></li>
+                            <li><a>Becas Bicentenario</a></li>
+                            <li><a>Becas Capacitar del Noa</a></li>
+                            <li><a>Bec.ar</a></li>   
+                            <li><a>Prog.r.es.ar</a></li>       
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
-                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <h5 style="color: #26A65B;">INFORMACION ACADEMICA</h5>
                         <ul style="list-style-type:none; padding: 0px;">
-                            <li>Lic. en Analisis de Sistemas</li>
-                            <li>Contador</li>
-                            <li>Lic. en Comunicación</li>
+                            <li><a>Orientación al Ingresante</a></li>
+                            <li><a>Orientación al Estudiante</a></li>
+                            <li><a>Orientación al Egresado</a></li>
+                            <li><a>Calendario Academico 2015</a></li>    
+                            <li><a>Orientación al Egresado</a></li>
+                            <li><a>Normativa Académica</a></li>
+                            <li><a>Bibliotecas</a></li>
+                            <li><a>Centro de Lenguas</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
-                        <h5 style="color: #26A65B;">CARRERAS MAS ELEGIDAS</h5>
+                        <h5 style="color: #26A65B;">INFORMACION UTIL</h5>
                         <ul style="list-style-type:none; padding: 0px;">
-                            <li>Lic. en Analisis de Sistemas</li>
-                            <li>Contador</li>
-                            <li>Lic. en Comunicación</li>
+                            <li><a>Como llegar</a></li>
+                            <li><a>Plano Campus Universitario</a></li>
+                            <li><a>Guia de Teléfonos</a></li>
+                            <li><a>Obra Social (OSUNSa)</a></li>
+                            <li><a>Museo de Cs. Naturales</a></li>
+                            <li><a>El Teléfono de la Salud</a></li>
                         </ul>
                     </div>
                 </div>
